@@ -4,12 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "tsx src/index.ts",
-    "api": "tsx src/api/server.ts",
-    "init-db": "tsx src/import/initDatabase.ts",
-    "load-demo": "tsx src/import/loadAll.ts",
-    "build-analytics": "tsx src/import/buildAnalytics.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "api": "tsx backend/api/server.ts"
   },
   "keywords": [],
   "type": "commonjs",
