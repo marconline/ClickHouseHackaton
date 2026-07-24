@@ -35,6 +35,8 @@ Setup is simple. Just follow these steps.
 - Just launch npx trigger.dev@latest dev
 
 ### Web App
+- Create an .env in the root. You must add these values:
+  - TRIGGER_SECRET_KEY=[TRIGGER.DEV SECRET KEY]
 - go into the /frontend-next folder
 - launch npm run dev
 - Web App will be running on http://localhost:5173/
