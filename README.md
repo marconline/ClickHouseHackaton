@@ -39,7 +39,7 @@ Setup is simple. Just follow these steps.
   - TRIGGER_SECRET_KEY=[TRIGGER.DEV SECRET KEY]
 - go into the /frontend-next folder
 - launch npm run dev
-- Web App will be running on http://localhost:5173/
+- Web App will be running on http://localhost:3000/
 
 
 ## What to do next?
