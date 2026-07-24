@@ -6,7 +6,7 @@ export async function loadSql(file: string) {
 
     return await fs.readFile(
         path.resolve(
-            "./src/sql/tools",
+            "./backend/sql/tools",
             file
         ),
         "utf8"
