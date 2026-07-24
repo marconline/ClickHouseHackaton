@@ -9,14 +9,18 @@
   "keywords": [],
   "type": "commonjs",
   "dependencies": {
+    "@ai-sdk/openai": "^4.0.20",
     "@clickhouse/client": "^1.23.1",
     "@trigger.dev/sdk": "4.5.7",
+    "ai": "^7.0.37",
     "cors": "^2.8.6",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "openai": "^6.48.0",
     "recharts": "^3.10.0",
-    "trigger.dev": "^4.5.7"
+    "trigger.dev": "^4.5.7",
+    "zo": "^0.0.2",
+    "zod": "^3.25.76"
   },
   "devDependencies": {
     "@trigger.dev/build": "4.5.7",

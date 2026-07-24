@@ -23,7 +23,7 @@ Setup is simple. Just follow these steps.
   - CLICKHOUSE_PASSWORD=[CLICKHOUSE PASSWORD]
   - CLICKHOUSE_DATABASE=[CLICKHOUSE DATABASE, IF NOT EXISTING IT WILL BE CREATED]
   - TRIGGER_SECRET_KEY=[TRIGGER.DEV SECRET KEY]
-  - OPENAI_API_KEY=[API KEY FOR OPENAI API]
+  - AI_GATEWAY_API_KEY=[API KEY FOR VERCEL]
   
 - Launch npx tsx backend/import/initDatabase.ts, to:
   - create the database
@@ -34,12 +34,8 @@ Setup is simple. Just follow these steps.
 ### Trigger.dev
 - Just launch npx trigger.dev@latest dev
 
-### API layer
-- Just run npm run api
-- API will be running on http://localhost:3001
-
 ### Web App
-- go into the /frontend folder
+- go into the /frontend-next folder
 - launch npm run dev
 - Web App will be running on http://localhost:5173/
 
