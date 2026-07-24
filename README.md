@@ -7,7 +7,6 @@ Hope you like it and have fun at least as much as we had building it!
 
 The app is composed by:
   - a web app, where the user can chat with the agent
-  - an API layer which connects the web app to the Trigger.dev task
   - the Trigger.dev task which has in charge the orchestration between OpenAI API and ClickHouse
 
 A ClickHouse server is a prerequisite for this all to work.
