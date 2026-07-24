@@ -23,7 +23,7 @@ Setup is simple. Just follow these steps.
   - CLICKHOUSE_PASSWORD=[CLICKHOUSE PASSWORD]
   - CLICKHOUSE_DATABASE=[CLICKHOUSE DATABASE, IF NOT EXISTING IT WILL BE CREATED]
   - TRIGGER_SECRET_KEY=[TRIGGER.DEV SECRET KEY]
-  - AI_GATEWAY_API_KEY=[API KEY FOR VERCEL]
+  - OPENAI_API_KEY=[API KEY FOR OPEN AI]
   
 - Launch npx tsx backend/import/initDatabase.ts, to:
   - create the database
