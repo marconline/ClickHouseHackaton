@@ -1,0 +1,4 @@
+node_modules
+.trigger
+.env
+marketrock-trigger-agent/backend/tests/*.ts
